@@ -21,7 +21,9 @@ def get_dict_from_string(str) :
     return str_dict
 
 
-str1 = 'G o d'
-str2 = 'Dog'
+str1 = 'cd$$$'
+str2 = 'Dc$$$'
 
 print(AnagramCheck(str1,str2))
+print(sorted(str1),sorted(str2))
+print(sorted(str1) == sorted(str2))
